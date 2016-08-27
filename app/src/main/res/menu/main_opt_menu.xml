@@ -5,33 +5,29 @@
     <item android:id="@+id/action_add"
         android:title="New"
         android:icon="@drawable/ic_add_24dp"
-        app:showAsAction="ifRoom"
-        />
+        app:showAsAction="ifRoom"/>
 
     <item android:id="@+id/action_about"
         android:title="About"
-        app:showAsAction="always"
-        />
+        app:showAsAction="always"/>
 
     <item android:id="@+id/action_search"
         android:title="Search"
         android:actionViewClass="android.support.v7.widget.SearchView"
         app:showAsAction="always"
         android:icon="@drawable/ic_search_24dp"
-        android:orderInCategory="1"
-        />
+        android:orderInCategory="1"/>
 
     <item android:id="@+id/action_setting"
         android:title="Setting"
         android:icon="@drawable/ic_setting_24dp"
-        app:showAsAction="ifRoom"
-        />
+        app:showAsAction="ifRoom"/>
 
     <item android:id="@+id/action_sort"
         android:title="Sort"
         android:icon="@drawable/ic_sort"
         app:showAsAction="always">
-        <!-- 二级菜单，单选组-->
+        <!-- 二级菜单==放到一个单选组-->
         <menu>
             <group
                 android:id="@+id/group_sort"
@@ -47,7 +43,5 @@
         </menu>
 
     </item>
-
-
 
 </menu>

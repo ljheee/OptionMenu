@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     /**
-     * 菜单被选中
+     * 选中菜单项（点击操作栏按钮）
      * @param item
      * @return
      */
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-
+    boolean isShowSort = true;
     /**
      * 预处理
      * 设置某些菜单项的属性：可见性，是否可选中
@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
         super.onOptionsMenuClosed(menu);
     }
 
-    boolean isShowSort = true;
+
 
     /**
      * Button按钮事件
